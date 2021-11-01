@@ -1,0 +1,57 @@
+package util;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.Metadata;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.service.ServiceRegistry;
+
+import entity.ChiTietCV;
+import entity.ChuyenMon;
+import entity.CongTrinh;
+import entity.CongViec;
+import entity.DiaChi;
+import entity.LaoDong;
+import entity.QuanLy;
+
+public class HibernateUtil {
+	private SessionFactory sessionFactory;
+	private static HibernateUtil intance = null;
+	
+	public HibernateUtil() {
+		ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
+								.configure()
+								.build();
+		Metadata meta = new MetadataSources(serviceRegistry)
+								.addAnnotatedClass(DiaChi.class)
+								.addAnnotatedClass(LaoDong.class)
+								.addAnnotatedClass(ChuyenMon.class)
+								.addAnnotatedClass(CongViec.class)
+								.addAnnotatedClass(CongTrinh.class)
+								.addAnnotatedClass(QuanLy.class)
+								.addAnnotatedClass(ChiTietCV.class)
+								.getMetadataBuilder()
+								.build();
+		sessionFactory = meta.getSessionFactoryBuilder()
+								.build();
+	}
+	
+	
+
+	public synchronized static HibernateUtil getIntance() {
+		if (intance == null)
+			intance = new HibernateUtil();
+		return intance;
+	}
+
+
+
+	public synchronized SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+	
+}
