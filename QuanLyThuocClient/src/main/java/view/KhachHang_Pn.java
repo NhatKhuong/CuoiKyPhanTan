@@ -1,39 +1,35 @@
  
 package view;
 
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-
 import java.awt.Color;
-import javax.swing.JTextField;
-import javax.swing.SpinnerDateModel;
-import javax.swing.JButton;
 import java.awt.Font;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Date;
-
-import javax.swing.border.LineBorder;
-import javax.swing.JComboBox;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.JTable;
-import javax.swing.table.DefaultTableModel;
-
-
-import BEAN.KhachHang;
-import DAO.DAO_KhachHang;
-import DB.Connect;
-
-import javax.swing.JScrollPane;
-import javax.swing.JSpinner;
-import javax.swing.ImageIcon;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.awt.event.ActionEvent;
+import java.util.List;
+
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+import javax.swing.border.LineBorder;
+import javax.swing.table.DefaultTableModel;
+
+import dao.KhachHangDao;
+import entity.KhachHang;
 
 public class KhachHang_Pn extends JPanel implements ActionListener, KeyListener {
 
@@ -53,6 +49,7 @@ public class KhachHang_Pn extends JPanel implements ActionListener, KeyListener 
 	private JButton btnCuoi;
 	private JButton btnThemKhachHang;
 	private JButton btnSua;
+	private KhachHangDao khachHangDao;
 
 	public KhachHang_Pn() {
 		setBorder(new LineBorder(new Color(0, 0, 0)));
@@ -164,6 +161,19 @@ btnSua.setFont(new Font("Arial", Font.PLAIN, 16));
 		table.setModel(tableModel = new DefaultTableModel(new Object[][] {}, new String[] { "Mã khách hàng",
 				"Tên Khách hàng", "Giới tính", "SDT", "Tỉnh/TP", "Quận/Huyện", "Phường xã" }));
 		table.setRowHeight(35);
+		
+		
+		SecurityManager securityManager = System.getSecurityManager();
+		if(securityManager == null) {
+			System.setProperty("java.security.policy", "policy/policy.policy");
+			System.setSecurityManager(new SecurityManager());
+		}
+		
+		try {
+			khachHangDao = (KhachHangDao) Naming.lookup("rmi://192.168.1.7:9999/khachHangDao");
+		} catch (MalformedURLException | RemoteException | NotBoundException e) {
+			e.printStackTrace();
+		}
 
 		btnTim = new JButton("Tim");
 		btnTim.setIcon(new ImageIcon(KhachHang_Pn.class.getResource("/img/Search.png")));
@@ -175,7 +185,12 @@ btnSua.setFont(new Font("Arial", Font.PLAIN, 16));
 		btnTim.setFont(new Font("Arial", Font.PLAIN, 16));
 		btnTim.setBounds(892, 59, 120, 35);
 		add(btnTim);
-		themDuLieuVaoTable();
+		try {
+			themDuLieuVaoTable();
+		} catch (RemoteException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 
 		// khong cho sua table
 		table.setDefaultEditor(Object.class, null);
@@ -183,7 +198,12 @@ btnSua.setFont(new Font("Arial", Font.PLAIN, 16));
 	}
 	public void khoiTaoDuLieu(){
 		xoaALLDuLieuTable();
-		themDuLieuVaoTable();
+		try {
+			themDuLieuVaoTable();
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	private void xoaALLDuLieuTable() {
 		for(int i = tableModel.getRowCount() ; i>0; i--) {
@@ -192,9 +212,9 @@ btnSua.setFont(new Font("Arial", Font.PLAIN, 16));
 		
 	}
 
-	public void themDuLieuVaoTable() {
+	public void themDuLieuVaoTable() throws RemoteException {
 
-		Connection conn = DB.Connect.CreateConnection();
+		
 int gtIndex = cbGioiTinh.getSelectedIndex();
 		// loc theo gioi tinh
 		String gt = "";
@@ -210,7 +230,7 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 		if (search.trim().length() == 0) {
 			search = "";
 		}
-		ArrayList<KhachHang> list = DAO.DAO_KhachHang.danhSachKhachHang(conn, page - 1, search, gt);
+		List<KhachHang> list = khachHangDao.danhSachKhachHang( page - 1, search, gt);
 		if (list != null) {
 			for (KhachHang khachHang : list) {
 				String[] s = { khachHang.getMaKhachHang(), khachHang.getTenKhachHang().toUpperCase(),
@@ -223,11 +243,7 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 			xoaALLDuLieuTable();
 		}
 
-		try {
-			conn.close();
-		} catch (SQLException e) {
-			System.out.println("ERROE close :themDuLieuVaoTable" + e.getMessage());
-		}
+		
 	}
 
 	public void lamMoi() {
@@ -236,22 +252,37 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 		txtSDT.setText("");
 		txtSearch.setText("");
 		xoaALLDuLieuTable();
-		themDuLieuVaoTable();
+		try {
+			themDuLieuVaoTable();
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		Connection conn = DB.Connect.CreateConnection();
 		String gioiTinh = "";
 		if (cbGioiTinh.getSelectedIndex( ) != 0) {
 			gioiTinh  = cbGioiTinh.getSelectedItem().toString().equalsIgnoreCase("Nam") ? "1" : "0";
 		}
-		int tongSoHang = DAO_KhachHang.tongSoHang(conn,txtSearch.getText(), gioiTinh );
+		int tongSoHang=0;
+		try {
+			tongSoHang = khachHangDao.tongSoHang(txtSearch.getText(), gioiTinh );
+		} catch (RemoteException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		int pageCuoi = tongSoHang % 20 == 0 ? tongSoHang / 20 : tongSoHang / 20 + 1;
 		Object object = e.getSource();
 		if (object.equals(cbGioiTinh)) { // loc du lieu theo gioi tinh
 			xoaALLDuLieuTable();
-			themDuLieuVaoTable();
+			try {
+				themDuLieuVaoTable();
+			} catch (RemoteException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 		} else if (object.equals(btnTim)) { // tim kiem qua sdt
 			xoaALLDuLieuTable();
 			String sdt = txtSDT.getText();
@@ -259,7 +290,13 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 				JOptionPane.showMessageDialog(this, "Ban chua nhap SDT");
 				return;
 			}
-			KhachHang khachHang = DAO_KhachHang.layThongTinKhachHangQuaSDT(conn, sdt);
+			KhachHang khachHang=null;
+			try {
+				khachHang = khachHangDao.layThongTinKhachHangQuaSDT(sdt);
+			} catch (RemoteException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 			if (khachHang != null) {
 				tableModel.addRow(new Object[] { khachHang.getMaKhachHang(), khachHang.getTenKhachHang(),
 						khachHang.isGioiTinh() ? "Nam" : "Nữ", khachHang.getSoDienThoai(),
@@ -275,7 +312,12 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 		else if (object.equals(btnDau)) {
 			txtPage.setText("1");
 			xoaALLDuLieuTable();
-			themDuLieuVaoTable();
+			try {
+				themDuLieuVaoTable();
+			} catch (RemoteException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 
 		} else if (object.equals(btnCong1)) {
 			int page = Integer.parseInt(txtPage.getText());
@@ -283,7 +325,12 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 				page++;
 				txtPage.setText(Integer.toString(page));
 				xoaALLDuLieuTable();
-				themDuLieuVaoTable();
+				try {
+					themDuLieuVaoTable();
+				} catch (RemoteException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 			}
 		} else if (object.equals(btnTru1)) {
 			int page = Integer.parseInt(txtPage.getText());
@@ -291,13 +338,23 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 				page--;
 txtPage.setText(Integer.toString(page));
 				xoaALLDuLieuTable();
-				themDuLieuVaoTable();
+				try {
+					themDuLieuVaoTable();
+				} catch (RemoteException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 			}
 
 		} else if (object.equals(btnCuoi)) {
 			txtPage.setText(Integer.toString(pageCuoi));
 			xoaALLDuLieuTable();
-			themDuLieuVaoTable();
+			try {
+				themDuLieuVaoTable();
+			} catch (RemoteException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 		} else if (object.equals(btnThemKhachHang)) { // them khach hang
 			DialogThemKhachHang dialogThemKhachHang = new DialogThemKhachHang(null);
 			dialogThemKhachHang.setVisible(true);
@@ -325,11 +382,20 @@ txtPage.setText(Integer.toString(page));
 	public void keyReleased(KeyEvent e) {
 		txtPage.setText("1");
 		xoaALLDuLieuTable();
-		themDuLieuVaoTable();
+		try {
+			themDuLieuVaoTable();
+		} catch (RemoteException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 	}
 
 	@Override
 	public void keyTyped(KeyEvent e) {
 
+	}
+	
+	public static void main(String[] args) {
+		new KhachHang_Pn().setVisible(true);
 	}
 }
