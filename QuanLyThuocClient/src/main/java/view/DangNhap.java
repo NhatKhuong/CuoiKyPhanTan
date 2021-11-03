@@ -2,8 +2,13 @@ package view;
 
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
 import java.sql.Connection;
 import java.sql.SQLException;
 
@@ -15,12 +20,13 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.border.EmptyBorder;
 
-import BEAN.NhanVien;
-import DAO.DAO_NhanVien;
+import dao.KhachHangDao;
+import dao.NhanVienDao;
+import entity.NhanVien;
+
+
 
 public class DangNhap extends JFrame implements ActionListener {
 
@@ -35,6 +41,7 @@ public class DangNhap extends JFrame implements ActionListener {
 	private JTextField txtSDT;
 	private JButton btnXoaRong;
 	private JButton btnDangNhap;
+	private NhanVienDao nhanVienDao;
 	/**
 	 * Launch the application.
 	 */
@@ -134,6 +141,22 @@ public class DangNhap extends JFrame implements ActionListener {
 		btnDangNhap.addActionListener(this);
 		btnXoaRong.addActionListener(this);
 		
+		
+		SecurityManager securityManager = System.getSecurityManager();
+		if (securityManager == null) {
+			System.setProperty("java.security.policy", "policy/policy.policy");
+			System.setSecurityManager(new SecurityManager());
+		}
+
+		try {
+		nhanVienDao =(dao.NhanVienDao) Naming.lookup("rmi://192.168.1.7:9999/nhanVienDao");
+		
+		
+		} catch (MalformedURLException | RemoteException | NotBoundException e) {
+			System.out.println("1");
+			e.printStackTrace();
+		}
+		
 	}
 
 	@Override
@@ -161,23 +184,20 @@ public class DangNhap extends JFrame implements ActionListener {
 				return;
 			}
 			
-			if (DAO_NhanVien.dangNhap(DB.Connect.CreateConnection(), sdt, password)) {
-				Connection conn = DB.Connect.CreateConnection();
-				// dung
-				dangNhapResponse.getNhanVien(DAO_NhanVien.layThongTinNhanVienQuaSDT(conn, sdt));
-				
-				
-				try {
-					conn.close();
-				} catch (SQLException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
+			try {
+				if (nhanVienDao.dangNhap(sdt, password)) {
+					// dung
+					dangNhapResponse.getNhanVien(nhanVienDao.layThongTinNhanVienQuaSDT(sdt));
+					
+					
+					dangNhapResponse.getNhanVien(nhanVien);
+					this.setVisible(false);
+				} else {
+					JOptionPane.showMessageDialog(this, "Bạn sai số điện thoại hoặc mật khẩu");
 				}
-				
-				dangNhapResponse.getNhanVien(nhanVien);
-				this.setVisible(false);
-			} else {
-				JOptionPane.showMessageDialog(this, "Bạn sai số điện thoại hoặc mật khẩu");
+			} catch (HeadlessException | RemoteException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
 			}
 
 		}else if(object.equals(btnXoaRong)) {

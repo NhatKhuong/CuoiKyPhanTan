@@ -1,4 +1,4 @@
- 
+
 package view;
 
 import java.awt.Color;
@@ -10,6 +10,7 @@ import java.awt.event.KeyListener;
 import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
+import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -32,7 +33,7 @@ import dao.KhachHangDao;
 import entity.KhachHang;
 
 public class KhachHang_Pn extends JPanel implements ActionListener, KeyListener {
-
+	
 	private static final long serialVersionUID = 1L;
 	private JTextField txtSDT;
 	private JTable table;
@@ -49,9 +50,11 @@ public class KhachHang_Pn extends JPanel implements ActionListener, KeyListener 
 	private JButton btnCuoi;
 	private JButton btnThemKhachHang;
 	private JButton btnSua;
-	private KhachHangDao khachHangDao;
+	private static KhachHangDao khachHangDao;
+	
 
-	public KhachHang_Pn() {
+	public KhachHang_Pn() throws RemoteException {
+		
 		setBorder(new LineBorder(new Color(0, 0, 0)));
 		setBackground(new Color(255, 255, 255));
 		setLayout(null);
@@ -94,7 +97,7 @@ public class KhachHang_Pn extends JPanel implements ActionListener, KeyListener 
 		btnSua = new JButton("S\u1EEFa");
 		btnSua.addActionListener(this);
 		btnSua.setIcon(new ImageIcon(NhanVien_Pn.class.getResource("/img/cap_nhat.png")));
-btnSua.setFont(new Font("Arial", Font.PLAIN, 16));
+		btnSua.setFont(new Font("Arial", Font.PLAIN, 16));
 		btnSua.setBounds(1152, 59, 120, 35);
 		add(btnSua);
 
@@ -161,20 +164,24 @@ btnSua.setFont(new Font("Arial", Font.PLAIN, 16));
 		table.setModel(tableModel = new DefaultTableModel(new Object[][] {}, new String[] { "Mã khách hàng",
 				"Tên Khách hàng", "Giới tính", "SDT", "Tỉnh/TP", "Quận/Huyện", "Phường xã" }));
 		table.setRowHeight(35);
-		
-		
+//============================================================================================
 		SecurityManager securityManager = System.getSecurityManager();
-		if(securityManager == null) {
+		if (securityManager == null) {
 			System.setProperty("java.security.policy", "policy/policy.policy");
 			System.setSecurityManager(new SecurityManager());
 		}
-		
+
 		try {
-			khachHangDao = (KhachHangDao) Naming.lookup("rmi://192.168.1.7:9999/khachHangDao");
+			khachHangDao =  (KhachHangDao) Naming.lookup("rmi://192.168.1.7:9999/khachHangDao");
+		khachHangDao.danhSachKhachHang(0,"","")
+		.forEach(item->{
+			System.out.println(item);
+		});
 		} catch (MalformedURLException | RemoteException | NotBoundException e) {
+			System.out.println("1");
 			e.printStackTrace();
 		}
-
+//==================================================================================================
 		btnTim = new JButton("Tim");
 		btnTim.setIcon(new ImageIcon(KhachHang_Pn.class.getResource("/img/Search.png")));
 		btnTim.addActionListener(new ActionListener() {
@@ -194,9 +201,10 @@ btnSua.setFont(new Font("Arial", Font.PLAIN, 16));
 
 		// khong cho sua table
 		table.setDefaultEditor(Object.class, null);
-		
+
 	}
-	public void khoiTaoDuLieu(){
+
+	public void khoiTaoDuLieu() {
 		xoaALLDuLieuTable();
 		try {
 			themDuLieuVaoTable();
@@ -205,17 +213,17 @@ btnSua.setFont(new Font("Arial", Font.PLAIN, 16));
 			e.printStackTrace();
 		}
 	}
+
 	private void xoaALLDuLieuTable() {
-		for(int i = tableModel.getRowCount() ; i>0; i--) {
-		tableModel.removeRow(0);
+		for (int i = tableModel.getRowCount(); i > 0; i--) {
+			tableModel.removeRow(0);
 		}
-		
+
 	}
 
 	public void themDuLieuVaoTable() throws RemoteException {
 
-		
-int gtIndex = cbGioiTinh.getSelectedIndex();
+		int gtIndex = cbGioiTinh.getSelectedIndex();
 		// loc theo gioi tinh
 		String gt = "";
 		if (gtIndex == 1) {
@@ -230,7 +238,8 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 		if (search.trim().length() == 0) {
 			search = "";
 		}
-		List<KhachHang> list = khachHangDao.danhSachKhachHang( page - 1, search, gt);
+//		List<KhachHang> list = khachHangDao.danhSachKhachHang(page - 1, search, gt);
+		List<KhachHang> list = khachHangDao.danhSachKhachHang(0,"","");
 		if (list != null) {
 			for (KhachHang khachHang : list) {
 				String[] s = { khachHang.getMaKhachHang(), khachHang.getTenKhachHang().toUpperCase(),
@@ -243,7 +252,6 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 			xoaALLDuLieuTable();
 		}
 
-		
 	}
 
 	public void lamMoi() {
@@ -263,12 +271,12 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		String gioiTinh = "";
-		if (cbGioiTinh.getSelectedIndex( ) != 0) {
-			gioiTinh  = cbGioiTinh.getSelectedItem().toString().equalsIgnoreCase("Nam") ? "1" : "0";
+		if (cbGioiTinh.getSelectedIndex() != 0) {
+			gioiTinh = cbGioiTinh.getSelectedItem().toString().equalsIgnoreCase("Nam") ? "1" : "0";
 		}
-		int tongSoHang=0;
+		int tongSoHang = 0;
 		try {
-			tongSoHang = khachHangDao.tongSoHang(txtSearch.getText(), gioiTinh );
+			tongSoHang = khachHangDao.tongSoHang(txtSearch.getText(), gioiTinh);
 		} catch (RemoteException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -290,7 +298,7 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 				JOptionPane.showMessageDialog(this, "Ban chua nhap SDT");
 				return;
 			}
-			KhachHang khachHang=null;
+			KhachHang khachHang = null;
 			try {
 				khachHang = khachHangDao.layThongTinKhachHangQuaSDT(sdt);
 			} catch (RemoteException e1) {
@@ -336,7 +344,7 @@ int gtIndex = cbGioiTinh.getSelectedIndex();
 			int page = Integer.parseInt(txtPage.getText());
 			if (page != 1) {
 				page--;
-txtPage.setText(Integer.toString(page));
+				txtPage.setText(Integer.toString(page));
 				xoaALLDuLieuTable();
 				try {
 					themDuLieuVaoTable();
@@ -359,14 +367,14 @@ txtPage.setText(Integer.toString(page));
 			DialogThemKhachHang dialogThemKhachHang = new DialogThemKhachHang(null);
 			dialogThemKhachHang.setVisible(true);
 			lamMoi();
-		}else if(object.equals(btnSua)) {
+		} else if (object.equals(btnSua)) {
 			int selectRow = table.getSelectedRow();
 			if (selectRow == -1) {
 				JOptionPane.showMessageDialog(this, "Ban chua chon khach hang");
 				return;
 			}
 			String sdt = (String) table.getValueAt(table.getSelectedRow(), 3);
-		
+
 			DialogSuaKhachHang dialogSuaKhachHang = new DialogSuaKhachHang(sdt);
 			dialogSuaKhachHang.setVisible(true);
 			lamMoi();
@@ -375,7 +383,7 @@ txtPage.setText(Integer.toString(page));
 
 	@Override
 	public void keyPressed(KeyEvent e) {
-		
+
 	}
 
 	@Override
@@ -394,8 +402,29 @@ txtPage.setText(Integer.toString(page));
 	public void keyTyped(KeyEvent e) {
 
 	}
-	
+
 	public static void main(String[] args) {
-		new KhachHang_Pn().setVisible(true);
+//		try {
+//			new KhachHang_Pn().setVisible(true);
+//		} catch (RemoteException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		SecurityManager securityManager = System.getSecurityManager();
+		if (securityManager == null) {
+			System.setProperty("java.security.policy", "policy/policy.policy");
+			System.setSecurityManager(new SecurityManager());
+		}
+
+		try {
+		khachHangDao =  (KhachHangDao) Naming.lookup("rmi://192.168.1.7:9999/khachHangDao");
+		khachHangDao.danhSachKhachHang(0,"","")
+		.forEach(item->{
+			System.out.println(item);
+		});
+		} catch (MalformedURLException | RemoteException | NotBoundException e) {
+			System.out.println("1");
+			e.printStackTrace();
+		}
 	}
 }

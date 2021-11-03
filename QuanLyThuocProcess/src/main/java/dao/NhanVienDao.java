@@ -2,13 +2,13 @@ package dao;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
-import java.util.ArrayList;
+import java.util.List;
 
 import entity.NhanVien;
 
 public interface NhanVienDao extends Remote {
 
-	public ArrayList<NhanVien> DanhSachNhanVien(int page, String txtSearch, String trangThaiLamViec) throws RemoteException;
+	public List<NhanVien> DanhSachNhanVien(int page, String txtSearch, String gioiTinh , boolean trangThaiLamViec) throws RemoteException;
 
 	public NhanVien layThongTinNhanVienQuaSDT(String sdt) throws RemoteException;
 

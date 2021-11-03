@@ -1,4 +1,5 @@
 package entity;
+import java.io.Serializable;
 import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,7 +10,11 @@ import javax.persistence.OneToMany;
 import javax.persistence.Transient;
 
 @Entity
-public class NhanVien {
+public class NhanVien implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Id
 	private String maNhanVien;
 	@Column(columnDefinition = "nvarchar(255)")

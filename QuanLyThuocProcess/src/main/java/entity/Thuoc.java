@@ -1,5 +1,6 @@
 package entity;
 
+import java.io.Serializable;
 import java.sql.Date;
 import java.util.List;
 import java.util.jar.Attributes.Name;
@@ -13,7 +14,11 @@ import javax.persistence.OneToMany;
 
 
 @Entity
-public class Thuoc {
+public class Thuoc implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Id
 //	@Column(columnDefinition = "nvarchar(30)")
 	

@@ -1,9 +1,14 @@
 package entity;
 
+import java.io.Serializable;
 import java.text.DecimalFormat;
 
 
-public class Format {
+public class Format implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	public static String chuyenDoiTienTe(double money) {
 		DecimalFormat decimalFormat = new DecimalFormat("###,###,###,###,###,### VND");
 		return decimalFormat.format(money);

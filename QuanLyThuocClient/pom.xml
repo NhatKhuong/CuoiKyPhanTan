@@ -3,4 +3,29 @@
   <groupId>QuanLyThuocClient</groupId>
   <artifactId>QuanLyThuocClient</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+		<!-- API, java.xml.bind module -->
+		<dependency>
+			<groupId>jakarta.xml.bind</groupId>
+			<artifactId>jakarta.xml.bind-api</artifactId>
+			<version>2.3.2</version>
+		</dependency>
+
+		<!-- Runtime, com.sun.xml.bind module -->
+		<dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+			<version>2.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.5.7.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>9.4.0.jre8</version>
+		</dependency>
+	</dependencies>
 </project>

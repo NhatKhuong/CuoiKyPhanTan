@@ -1,5 +1,6 @@
 package entity;
 
+import java.io.Serializable;
 import java.sql.Date;
 import java.util.List;
 
@@ -15,7 +16,11 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "HoaDonBan")
-public class HoaDon {
+public class HoaDon implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Id
 	private String maHoaDonBan;
 	private Date ngayLapHDBan;

@@ -8,6 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.rmi.RemoteException;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -18,9 +19,8 @@ import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 import javax.swing.SwingConstants;
 import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
 
-import BEAN.NhanVien;
+import entity.NhanVien;
 import view.DangNhap.DangNhapResponse;
 
 public class GUI_Chinh_JFrame extends JFrame implements MouseListener, ActionListener {
@@ -170,13 +170,18 @@ public class GUI_Chinh_JFrame extends JFrame implements MouseListener, ActionLis
 		tabbedPane.addMouseListener(this);
 		panel.add(tabbedPane, BorderLayout.CENTER);
 
-		cuaHang_Pn = new CuaHang_Pn();
-		thuoc_Pn = new Thuoc_Pn();
-		nhanVien_Pn = new NhanVien_Pn();
-		khachHang_Pn = new KhachHang_Pn();
-		hoaDon_Pn = new HoaDon_Pn();
-		thongKe_Pn = new ThongKe_Pn();
-		cuaHang_Pn.khoiTaoDuLieu();
+//		cuaHang_Pn = new CuaHang_Pn();
+//		thuoc_Pn = new Thuoc_Pn();
+//		nhanVien_Pn = new NhanVien_Pn();
+		try {
+			khachHang_Pn = new KhachHang_Pn();
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+//		hoaDon_Pn = new HoaDon_Pn();
+//		thongKe_Pn = new ThongKe_Pn();
+//		cuaHang_Pn.khoiTaoDuLieu();
 
 		tabbedPane.addTab("Cửa hàng ", new ImageIcon(GUI_Chinh_JFrame.class.getResource("/img/storeNav.png")),
 				cuaHang_Pn, "Cửa hàng");
