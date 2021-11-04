@@ -8,7 +8,7 @@ import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-
+import org.hibernate.query.Query;
 import dao.NhanVienDao;
 import entity.NhanVien;
 import util.HibernateUtil;
@@ -28,15 +28,18 @@ public class NhanVienImpl extends UnicastRemoteObject implements NhanVienDao {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	@Override
-	public List<NhanVien> DanhSachNhanVien(int page, String txtSearch,String gioiTinh, boolean trangThaiLamViec){
+	public List<NhanVien> DanhSachNhanVien(int page, String txtSearch,String gioiTinh, String trangThaiLamViec){
 	Session session = sessionFactory.openSession();
 	Transaction tr = session.getTransaction();
 	if (txtSearch == null)
 		txtSearch = "";
 	if (gioiTinh == null)
 		gioiTinh = "";
-	String ttlv = trangThaiLamViec ? "0" : "1";
+	String ttlv = "";
+	if(trangThaiLamViec != null ) {
+		ttlv  = trangThaiLamViec;
+	}
+
 	int offset = page * limit;// lay du lieu bat dau tu vi tri page*20
 
 	try {
@@ -52,7 +55,6 @@ public class NhanVienImpl extends UnicastRemoteObject implements NhanVienDao {
 
 		List<NhanVien> dsNhanVien = session.createNativeQuery(sql, NhanVien.class).getResultList();
 
-//		KhachHang khachHang = session.
 		tr.commit();
 
 		return dsNhanVien;
@@ -66,7 +68,6 @@ public class NhanVienImpl extends UnicastRemoteObject implements NhanVienDao {
 	return null;
 	}
 
-	@Override
 	public NhanVien layThongTinNhanVienQuaSDT(String sdt) throws RemoteException {
 		Session session = sessionFactory.openSession();
 		Transaction tr = session.getTransaction();
@@ -91,59 +92,9 @@ public class NhanVienImpl extends UnicastRemoteObject implements NhanVienDao {
 		return null;
 	}
 
-	@Override
-	public int tongHang(String txtSearch, String trangThaiLamViec) throws RemoteException {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public String phatSinhMaTuDong() throws RemoteException {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public boolean themNhanVien(NhanVien nhanVien) throws RemoteException {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean suaCmnd(String maNhanVien, String cmnd) throws RemoteException {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean suaNhanVien(NhanVien nhanVien) throws RemoteException {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean suaTrangThaiLamViec(String maNhanVien, boolean trangThaiLamViec) throws RemoteException {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean kiemTraSoDienThoai(String sdt) throws RemoteException {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean kiemTraSoChungMinhNhanDan(String cmnd) throws RemoteException {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
 	public boolean dangNhap(String sdt, String pass) throws RemoteException {
 		Session session = sessionFactory.openSession();
 		Transaction tr = session.getTransaction();
-
 		try {
 			tr.begin();
 			String sql = "select * from nhanVien where soDienThoaiNV = '"+sdt+"' and passLogin = '"+pass+"'" ;
@@ -163,16 +114,121 @@ public class NhanVienImpl extends UnicastRemoteObject implements NhanVienDao {
 		return false;
 	}
 
-	@Override
+	public int tongHang(String txtSearch, String trangThaiLamViec) throws RemoteException {
+		
+		return 20;
+	}
+
+	public String phatSinhMaTuDong() throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean themNhanVien(NhanVien nhanVien) throws RemoteException {
+		Session session = sessionFactory.getCurrentSession();
+		Transaction tr = session.getTransaction();
+		try {
+//			KhachHang khachHang =session.createQuery("select * from KhachHang where soDienThoai = :sdt",KhachHang.class).setParameter("sdt", sdt).getSingleResult();
+			tr.begin();
+			session.save(nhanVien);
+			tr.commit();
+
+			return true;
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e.getMessage());
+			tr.rollback();
+
+		} finally {
+			session.close();
+		}
+		return false;
+	}
+
+	public boolean suaCmnd(String maNhanVien, String cmnd) throws RemoteException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean suaNhanVien(NhanVien nhanVien) throws RemoteException {
+		Session session = sessionFactory.getCurrentSession();
+		Transaction tr = session.getTransaction();
+		try {
+			tr.begin();
+			session.update("NhanVien", nhanVien);
+			tr.commit();
+
+			return true;
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+			tr.rollback();
+
+		} finally {
+			session.close();
+		}
+		return false;
+	}
+
+	public boolean suaTrangThaiLamViec(String maNhanVien, boolean trangThaiLamViec) throws RemoteException {
+		// TODO Auto-generated method stub
+		String sql = "UPDATE NhanVien set trangThaiLamViec = :trangThaiLamViec WHERE maNhanVien = :maNhanVien ";
+		Session session = sessionFactory.openSession();
+		Transaction tr = session.getTransaction();
+		try {
+			tr.begin();
+			Query query = session.createQuery(sql);
+
+			query.setParameter("trangThaiLamViec", trangThaiLamViec);
+			query.setParameter("maNhanVien", maNhanVien);
+			int result = query.executeUpdate();
+			if (result != 0) {
+				return true;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			tr.rollback();
+
+		} finally {
+			session.close();
+		}
+		return false;
+	}
+
+	public boolean kiemTraSoDienThoai(String sdt) throws RemoteException {
+		return layThongTinNhanVienQuaSDT(sdt) == null ? true : false;
+	}
+
+	public boolean kiemTraSoChungMinhNhanDan(String cmnd) throws RemoteException {
+		Session session = sessionFactory.openSession();
+		Transaction tr = session.getTransaction();
+
+		try {
+			tr.begin();
+			String sql = "select * from nhanVien where cmnd = '" + cmnd + "'";
+			NhanVien nhanVien = session.createNativeQuery(sql, NhanVien.class).getSingleResult();
+			tr.commit();
+			if (nhanVien == null) {
+				return true;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			// e.printStackTrace();
+			tr.rollback();
+
+		} finally {
+			session.close();
+		}
+		return false;
+	}
+
 	public String layMaNhanVienQuaSoDienThoai(String sdt) throws RemoteException {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
 	public boolean xoaNhanVien(String maNhanVien) throws RemoteException {
 		// TODO Auto-generated method stub
 		return false;
 	}
-
 }

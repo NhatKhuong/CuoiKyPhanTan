@@ -16,8 +16,9 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
-import BEAN.NhanVien;
-import DAO.DAO_NhanVien;
+import entity.*;
+import dao.KhachHangDao;
+import dao.NhanVienDao;
 
 import javax.swing.JScrollPane;
 import javax.swing.ImageIcon;
@@ -26,13 +27,16 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.awt.event.ActionEvent;
 
 public class NhanVien_Pn extends JPanel implements ActionListener, KeyListener, MouseListener {
-
 	private static final long serialVersionUID = 1L;
 	private JTextField txtSDT;
 	private JTextField txtTimTen;
@@ -49,6 +53,8 @@ public class NhanVien_Pn extends JPanel implements ActionListener, KeyListener, 
 	private JButton btnTrangThaiLamViec;
 	private JButton btnThem;
 	private JButton btnSua;
+	private NhanVienDao nhanVienDao;
+	private static String addressIP = util.ip.addressIP;
 
 	public NhanVien_Pn() {
 //		try {
@@ -181,8 +187,7 @@ public class NhanVien_Pn extends JPanel implements ActionListener, KeyListener, 
 
 		cbTrangThaiLamViec = new JComboBox<String>();
 		cbTrangThaiLamViec.setFont(new Font("Arial", Font.PLAIN, 16));
-		cbTrangThaiLamViec
-				.setModel(new DefaultComboBoxModel<String>(new String[] { "(Tất cả)", "Đã nghĩ", "Đang làm" }));
+		cbTrangThaiLamViec.setModel(new DefaultComboBoxModel<String>(new String[] { "(Tất cả)", "Đã nghĩ", "Đang làm" }));
 		cbTrangThaiLamViec.setBounds(921, 10, 220, 35);
 		cbTrangThaiLamViec.addActionListener(this);
 		add(cbTrangThaiLamViec);
@@ -201,16 +206,27 @@ public class NhanVien_Pn extends JPanel implements ActionListener, KeyListener, 
 	}
 
 	public void themDuLieuVaoTable() {
-
+		  try {
+			nhanVienDao=  (NhanVienDao) Naming.lookup(addressIP+"/nhanVienDao");
+		} catch (MalformedURLException | RemoteException | NotBoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+			
+		}
 		int page = Integer.parseInt(txtPage.getText());
-		Connection conn = DB.Connect.CreateConnection();
 		String trangThaiLamViec = "";
-		if (cbTrangThaiLamViec.getSelectedIndex() != 0) {
+		if (cbTrangThaiLamViec.getSelectedIndex() != 0){
 			trangThaiLamViec = cbTrangThaiLamViec.getSelectedItem().toString().equalsIgnoreCase("Đang làm") ? "1" : "0";
 		}
 		ArrayList<NhanVien> list = null;
 		// loc theo trang thai lam viec
-		list = DAO_NhanVien.DanhSachNhanVien(conn, page - 1, txtTimTen.getText().trim(), trangThaiLamViec);
+		try {
+			list = (ArrayList<NhanVien>) nhanVienDao.DanhSachNhanVien(page - 1, txtTimTen.getText().trim(), trangThaiLamViec,null );
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.println("Loi O Day");
+		}
 
 		if (list == null) {
 			JOptionPane.showMessageDialog(this, "rong");
@@ -221,12 +237,7 @@ public class NhanVien_Pn extends JPanel implements ActionListener, KeyListener, 
 					nhanVien.getDiaChi().getPhuongXa(), nhanVien.isTrangThaiLamViec() ? "Đang làm" : "Đã nghĩ" };
 			tableModle.addRow(s);
 		}
-		try {
-			conn.close();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			System.err.println("DOng bi loi (ThemDuLieuVaoTable)");
-		}
+		
 	}
 
 	public void xoaToanBoBang() {
@@ -254,16 +265,20 @@ public class NhanVien_Pn extends JPanel implements ActionListener, KeyListener, 
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		Object object = e.getSource();
-		Connection conn = DB.Connect.CreateConnection();
 		int TongPage = 1;
 		String trangThaiLamViec = "";
 		if (cbTrangThaiLamViec.getSelectedIndex() != 0) {
 			trangThaiLamViec = cbTrangThaiLamViec.getSelectedItem().toString().equalsIgnoreCase("Đang làm") ? "1" : "0";
 		}
-		int tongHang = DAO_NhanVien.tongHang(conn, txtTimTen.getText(), trangThaiLamViec);
+		int tongHang = 1;
+		try {
+			tongHang = nhanVienDao.tongHang( txtTimTen.getText(), trangThaiLamViec);
+		} catch (RemoteException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
 		TongPage = tongHang % 20 == 0 ? tongHang / 20 : tongHang / 20 + 1;
 		if (object.equals(btnCong1)) { // next page table
-
 			// next table
 			int page = Integer.parseInt(txtPage.getText()) + 1;
 
@@ -306,11 +321,12 @@ public class NhanVien_Pn extends JPanel implements ActionListener, KeyListener, 
 		} else if (object.equals(btnTim)) { // tim SDT
 			String sdt = txtSDT.getText();
 			if (!sdt.trim().equals("")) {
-				NhanVien nhanVien = DAO_NhanVien.layThongTinNhanVienQuaSDT(conn, sdt);
+				NhanVien nhanVien = null;
 				try {
-					conn.close();
-				} catch (SQLException e1) {
-					System.err.println("Dong loi (Bnt cong)");
+					nhanVien = nhanVienDao.layThongTinNhanVienQuaSDT( sdt);
+				} catch (RemoteException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
 				}
 				if (nhanVien != null) {
 					xoaToanBoBang();
@@ -340,9 +356,14 @@ public class NhanVien_Pn extends JPanel implements ActionListener, KeyListener, 
 			if (xacnhan == JOptionPane.NO_OPTION) {
 				return;
 			}
-			DAO_NhanVien.suaTrangThaiLamViec(conn,
-					DAO_NhanVien.layMaNhanVienQuaSoDienThoai(conn, tableModle.getValueAt(hang, 2).toString()),
-					tableModle.getValueAt(hang, 6).toString().equalsIgnoreCase("Đang Làm") ? false : true);
+			try {
+				nhanVienDao.suaTrangThaiLamViec(
+						nhanVienDao.layMaNhanVienQuaSoDienThoai( tableModle.getValueAt(hang, 2).toString()),
+						tableModle.getValueAt(hang, 6).toString().equalsIgnoreCase("Đang Làm") ? false : true);
+			} catch (RemoteException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 			tableModle.setValueAt(
 					tableModle.getValueAt(hang, 6).toString().equalsIgnoreCase("Đang Làm") ? "Đã nghĩ" : "Đang làm",
 					hang, 6);
@@ -369,13 +390,7 @@ public class NhanVien_Pn extends JPanel implements ActionListener, KeyListener, 
 			lamMoi();
 		}
 		// dong ket noi
-		try
-
-		{
-			conn.close();
-		} catch (SQLException e1) {
-			System.err.println("Dong loi (Bnt cong)");
-		}
+		
 
 	}
 

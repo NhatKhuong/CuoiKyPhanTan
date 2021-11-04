@@ -149,7 +149,7 @@ public class DangNhap extends JFrame implements ActionListener {
 		}
 
 		try {
-		nhanVienDao =(dao.NhanVienDao) Naming.lookup("rmi://192.168.1.7:9999/nhanVienDao");
+		nhanVienDao =(dao.NhanVienDao) Naming.lookup("rmi://192.168.1.2:9999/nhanVienDao");
 		
 		
 		} catch (MalformedURLException | RemoteException | NotBoundException e) {
@@ -159,7 +159,6 @@ public class DangNhap extends JFrame implements ActionListener {
 		
 	}
 
-	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		Object object = e.getSource();

@@ -814,3 +814,649 @@
 2021-11-03 17:51:34,468 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-11-03 17:51:34,469 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-11-03 17:51:34,470 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:19:15,371 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-11-03 23:19:37,770 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: QuanLyThuoc:QuanLyThuoc:0.0.1-SNAPSHOT @ E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\pom.xml.
+2021-11-03 23:19:38,793 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:19:38,794 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:19:38,797 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:19:38,798 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:19:40,347 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: QuanLyThuoc:QuanLyThuoc:0.0.1-SNAPSHOT @ E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\pom.xml.
+2021-11-03 23:19:41,716 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:19:41,717 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:19:41,721 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:19:41,722 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:19:51,568 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: QuanLyThuocClient:QuanLyThuocClient:0.0.1-SNAPSHOT @ E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\pom.xml.
+2021-11-03 23:19:51,701 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: QuanLyThuocClient:QuanLyThuocClient:0.0.1-SNAPSHOT @ E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\pom.xml.
+2021-11-03 23:19:51,980 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:19:51,981 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:19:51,983 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:19:51,984 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:19:53,523 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: QuanLyThuocClient:QuanLyThuocClient:0.0.1-SNAPSHOT @ E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\pom.xml.
+2021-11-03 23:19:54,582 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:19:54,583 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:19:54,584 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:19:54,584 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:20:03,217 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: QuanLyThuocServer:QuanLyThuocServer:0.0.1-SNAPSHOT @ E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\pom.xml.
+2021-11-03 23:20:03,432 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:20:03,436 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:20:03,445 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:20:03,446 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:20:03,990 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: QuanLyThuocServer:QuanLyThuocServer:0.0.1-SNAPSHOT @ E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\pom.xml.
+2021-11-03 23:20:04,874 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:20:04,875 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-03 23:20:04,876 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:20:04,877 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:20:21,513 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-11-03 23:20:21,864 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: QuanLyThuocClient:QuanLyThuocClient:0.0.1-SNAPSHOT @ E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\pom.xml.
+2021-11-03 23:20:22,016 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: QuanLyThuoc:QuanLyThuoc:0.0.1-SNAPSHOT @ E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\pom.xml.
+2021-11-03 23:20:22,068 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: QuanLyThuocServer:QuanLyThuocServer:0.0.1-SNAPSHOT @ E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\pom.xml.
+2021-11-03 23:20:22,299 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /QuanLyThuocClient/src/main/java
+2021-11-03 23:20:22,299 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /QuanLyThuocClient/src/test/java
+2021-11-03 23:20:22,400 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /QuanLyThuocProcess/src/main/java
+2021-11-03 23:20:22,401 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /QuanLyThuocProcess/src/test/java
+2021-11-03 23:20:22,482 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /QuanLyThuocServer/src/main/java
+2021-11-03 23:20:22,483 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /QuanLyThuocServer/src/main/resources
+2021-11-03 23:20:22,484 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /QuanLyThuocServer/src/test/java
+2021-11-03 23:20:23,013 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-11-03 23:20:23,699 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:20:23,700 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:20:23,709 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:20:23,712 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:20:25,116 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:20:25,119 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:20:25,123 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:20:25,124 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:20:25,347 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:20:25,348 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:20:25,373 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:20:25,374 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:21:35,662 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:21:35,662 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:21:35,664 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:21:35,665 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:21:47,733 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:21:47,734 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:21:47,736 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:21:47,737 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:21:52,497 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:21:52,498 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:21:52,500 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:21:52,501 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:22:32,960 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:22:32,961 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:22:32,963 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:22:32,964 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:22:47,774 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:22:47,775 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:22:47,777 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:22:47,778 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:22:56,700 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:22:56,700 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:22:56,701 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:22:56,702 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:23:04,433 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:23:04,434 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:23:04,436 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:23:04,437 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:23:17,106 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:23:17,107 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:23:17,108 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:23:17,109 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:26:55,816 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:26:55,968 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:26:55,969 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:26:55,990 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:27:30,364 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:27:30,376 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:27:30,378 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:27:30,379 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:27:31,392 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:27:31,393 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-03 23:27:31,394 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:27:31,395 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:27:34,762 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:27:34,765 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:27:34,768 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:27:34,770 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:28:04,137 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:28:04,138 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:28:04,141 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:28:04,142 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:28:14,724 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:28:14,727 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:28:14,729 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:28:14,729 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:28:36,101 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:28:36,102 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:28:36,103 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:28:36,104 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:28:55,196 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:28:55,197 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:28:55,198 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:28:55,199 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:29:49,819 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:29:49,821 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:29:49,822 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:29:49,823 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:31:56,000 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:31:56,001 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:31:56,002 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:31:56,003 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:32:02,109 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:32:02,110 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:32:02,112 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:32:02,113 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:32:09,352 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:32:09,353 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:32:09,353 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:32:09,354 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:32:32,752 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:32:32,753 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:32:32,755 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:32:32,755 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:32:36,124 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:32:36,124 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:32:36,127 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:32:36,127 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:35:11,880 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:35:11,882 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:35:11,884 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:35:11,886 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:36:30,648 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:36:30,652 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:36:30,656 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:36:30,658 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:36:42,049 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:36:42,050 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:36:42,052 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:36:42,053 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:37:31,039 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:37:31,041 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-03 23:37:31,042 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:37:31,325 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-03 23:38:21,110 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:38:21,112 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:38:21,114 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:38:21,115 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:38:27,004 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:38:27,007 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:38:27,009 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:38:27,010 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:38:54,984 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:38:54,986 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:38:54,987 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:38:54,989 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:39:02,074 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:39:02,075 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:39:02,076 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:39:02,077 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:39:22,040 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:39:22,041 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:39:22,042 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:39:22,042 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:39:24,208 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:39:24,208 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:39:24,209 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:39:24,209 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:39:29,305 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:39:29,306 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:39:29,307 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:39:29,344 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:39:51,430 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1251497ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-11-03 23:39:51,610 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.37.v20210219; built: 2021-02-23T06:49:41.320Z; git: 27afab2bd37780d179836e313e0fe11bc4fa0ce9; jvm 16.0.2+7-67
+2021-11-03 23:39:51,628 [main] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2021-11-03 23:39:51,628 [main] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2021-11-03 23:39:51,629 [main] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+2021-11-03 23:39:51,652 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6a6652f2{/wse,null,AVAILABLE}
+2021-11-03 23:39:51,693 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@18bc5c1a{HTTP/1.1, (http/1.1)}{0.0.0.0:60145}
+2021-11-03 23:39:51,693 [main] INFO  org.eclipse.jetty.server.Server - Started @1251761ms
+2021-11-03 23:39:51,693 [main] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+2021-11-03 23:40:03,075 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:40:03,076 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:40:03,076 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:40:03,119 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:40:56,322 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:40:56,323 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:40:56,324 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:40:56,325 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:42:26,511 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:42:26,511 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:42:26,512 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:42:26,789 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:42:54,780 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:42:54,780 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:42:54,781 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:42:54,782 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:43:16,204 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:43:16,205 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:43:16,206 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:43:16,207 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:44:00,162 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:44:00,163 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:44:00,166 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:44:00,167 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:45:30,818 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:45:30,818 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:45:30,819 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:45:30,820 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:45:32,037 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:45:32,037 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:45:32,038 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:45:32,039 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:45:54,340 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:45:54,340 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:45:54,342 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:45:54,342 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:45:55,903 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:45:55,903 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:45:55,904 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:45:55,905 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:46:10,920 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:46:10,921 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:46:10,922 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:46:10,922 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:46:56,393 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:46:56,394 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:46:56,395 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:46:56,396 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:46:57,911 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:46:57,912 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:46:57,914 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:46:57,916 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:47:02,777 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:47:02,777 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:47:02,778 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:47:02,779 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:47:12,664 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:47:12,665 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:47:12,666 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:47:12,667 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:49:48,745 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:49:48,747 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:49:48,750 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:49:49,029 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:49:54,457 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:49:54,457 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:49:54,458 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:49:54,459 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:50:34,288 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:50:34,289 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:50:34,290 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:50:34,290 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:50:37,208 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:50:37,210 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:50:37,211 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:50:37,213 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:50:41,319 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:50:41,320 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:50:41,321 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:50:41,322 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:50:49,407 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:50:49,408 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:50:49,410 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:50:49,411 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:50:52,750 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:50:52,751 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:50:52,753 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:50:52,753 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:51:14,986 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:51:14,988 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:51:14,991 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:51:14,992 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:51:17,807 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:51:17,808 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:51:17,810 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:51:17,811 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:52:31,304 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:52:31,305 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:52:31,306 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:52:31,307 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:52:56,416 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:52:56,417 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:52:56,419 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:52:56,420 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:53:06,096 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:06,097 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:53:06,098 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:06,099 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:53:08,610 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:08,610 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:53:08,611 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:08,612 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:53:12,817 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:12,818 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:53:12,819 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:12,820 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:53:23,932 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:23,933 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:53:23,934 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:23,935 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:53:34,812 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:34,813 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:53:34,815 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:34,816 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:53:34,883 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:34,885 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:53:34,886 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:53:34,887 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:54:15,685 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:54:15,686 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:54:15,688 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:54:15,689 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:54:29,826 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:54:29,827 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:54:29,828 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:54:29,829 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:55:36,217 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:55:36,218 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:55:36,219 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:55:36,219 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:55:37,723 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:55:37,724 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:55:37,727 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:55:37,728 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:56:18,999 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:56:18,999 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:56:19,000 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:56:19,001 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:56:32,858 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:56:32,858 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:56:32,859 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:56:32,860 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:56:34,042 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:56:34,043 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:56:34,045 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:56:34,046 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:56:48,323 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:56:48,324 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:56:48,324 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:56:48,325 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:56:49,918 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:56:49,919 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-03 23:56:49,920 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:56:49,920 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-03 23:58:03,253 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:58:03,254 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:58:03,256 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:58:03,257 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:58:57,130 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:58:57,131 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:58:57,132 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:58:57,133 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:59:05,830 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:05,831 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:59:05,831 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:05,832 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:59:30,574 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:30,576 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:59:30,577 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:30,579 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:59:41,393 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:41,393 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:59:41,395 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:41,396 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:59:47,128 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:47,129 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:59:47,130 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:47,130 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:59:53,142 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:53,145 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:59:53,147 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:53,149 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-03 23:59:59,687 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:59,687 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-03 23:59:59,689 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-03 23:59:59,690 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:00:16,998 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:00:17,001 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:00:17,003 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:00:17,004 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:00:34,882 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:00:34,882 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:00:34,884 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:00:34,884 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:00:54,814 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:00:54,814 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:00:54,815 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:00:54,816 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:01:05,293 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:01:05,295 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:01:05,297 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:01:05,297 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:01:08,227 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:01:08,227 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:01:08,228 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:01:08,229 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:01:23,114 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:01:23,115 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:01:23,116 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:01:23,116 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:01:29,019 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:01:29,019 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:01:29,020 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:01:29,021 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:02:06,294 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:06,295 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:02:06,296 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:06,297 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:02:13,029 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:13,030 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:02:13,031 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:13,031 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:02:15,616 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:15,617 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:02:15,618 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:15,618 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:02:20,543 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:20,544 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:02:20,545 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:20,545 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:02:25,794 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:25,794 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:02:25,795 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:25,796 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:02:30,189 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:30,190 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:02:30,191 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:30,191 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:02:36,043 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:36,043 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:02:36,044 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:36,045 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:02:41,773 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:41,775 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:02:41,779 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:41,780 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:02:47,282 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:47,283 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:02:47,284 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:47,285 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:02:58,692 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:58,693 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:02:58,694 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:02:58,695 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:03:00,717 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:03:00,718 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:03:00,719 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:03:00,719 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:03:05,455 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:03:05,456 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:03:05,457 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:03:05,458 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:04:36,535 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:04:36,536 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-04 00:04:36,537 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:04:36,538 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-04 00:04:40,279 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:04:40,281 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-04 00:04:40,283 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:04:40,284 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-04 00:05:00,551 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:05:00,552 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:05:00,553 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:05:00,554 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:05:27,939 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:05:27,941 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:05:27,943 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:05:27,944 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:05:53,015 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:05:53,016 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:05:53,016 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:05:53,017 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:05:55,825 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:05:55,825 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:05:55,826 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:05:55,826 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:06:22,767 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:06:22,768 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:06:22,771 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:06:22,772 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:08:00,187 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:08:00,189 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-04 00:08:00,191 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:08:00,192 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-04 00:08:05,618 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:08:05,619 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-04 00:08:05,620 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:08:05,620 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocServer\src\test\resources
+2021-11-04 00:11:17,423 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:11:17,424 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:11:17,426 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:11:17,427 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:15:29,926 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:15:29,927 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:15:29,927 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:15:30,205 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:15:49,898 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:15:49,899 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:15:49,901 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:15:49,901 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:17:27,215 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:17:27,217 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:17:27,221 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:17:27,223 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:17:31,470 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:17:31,471 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:17:31,472 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:17:31,473 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:17:55,416 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:17:55,417 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:17:55,418 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:17:55,419 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:21:36,763 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:21:36,774 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:21:36,776 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:21:36,785 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:21:50,378 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:21:50,379 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:21:50,379 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:21:50,380 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:23:58,175 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:23:58,186 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:23:58,187 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:23:58,196 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:24:01,807 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:24:01,807 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:24:01,808 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:24:01,809 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:24:17,379 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:24:17,380 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:24:17,382 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:24:17,384 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:24:19,952 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:24:19,952 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:24:19,954 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:24:19,955 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:24:25,866 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:24:25,867 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:24:25,869 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:24:25,869 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:24:53,047 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:24:53,047 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:24:53,048 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:24:53,049 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:25:00,319 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:25:00,320 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:25:00,321 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:25:00,321 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:25:22,351 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:25:22,352 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:25:22,354 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:25:22,373 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:25:35,220 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:25:35,221 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:25:35,221 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:25:35,222 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:26:07,504 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:26:07,505 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:26:07,505 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:26:07,515 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:26:22,359 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:26:22,360 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:26:22,363 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:26:22,364 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:28:19,997 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:28:19,998 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:28:19,999 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:28:20,009 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:29:20,341 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:29:20,342 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:29:20,344 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:29:20,352 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:31:02,118 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:31:02,119 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\main\resources
+2021-11-04 00:31:02,120 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:31:02,120 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocProcess\src\test\resources
+2021-11-04 00:34:11,386 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:34:11,388 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:34:11,390 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:34:11,392 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:36:06,096 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:36:06,097 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:36:06,099 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:36:06,101 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:39:26,875 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:39:26,876 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:39:26,877 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:39:26,877 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:40:10,960 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:40:10,961 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:40:10,962 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:40:10,962 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:40:16,222 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:40:16,223 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:40:16,224 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:40:16,224 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:41:40,904 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:41:40,905 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:41:40,907 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:41:40,908 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:44:08,224 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:44:08,224 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:44:08,225 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:44:08,508 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:44:09,536 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:44:09,536 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:44:09,537 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:44:09,537 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:50:21,513 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:50:21,514 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:50:21,516 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:50:21,523 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:50:23,692 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:50:23,694 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:50:23,696 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:50:23,697 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:50:50,599 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:50:50,600 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:50:50,601 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:50:50,602 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 00:52:36,958 [Framework stop - Equinox Container: 8146e019-b8af-4f77-bfc3-2455e94ba723] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@18bc5c1a{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+2021-11-04 00:52:36,959 [Framework stop - Equinox Container: 8146e019-b8af-4f77-bfc3-2455e94ba723] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2021-11-04 00:52:37,042 [Framework stop - Equinox Container: 8146e019-b8af-4f77-bfc3-2455e94ba723] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6a6652f2{/wse,null,STOPPED}
+2021-11-04 00:53:00,389 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-11-04 00:57:54,681 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:57:54,684 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\main\resources
+2021-11-04 00:57:54,688 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-11-04 00:57:54,689 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\PT_JAVA\BTL\CuoiKyPhanTan\QuanLyThuocClient\src\test\resources
+2021-11-04 01:09:14,790 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

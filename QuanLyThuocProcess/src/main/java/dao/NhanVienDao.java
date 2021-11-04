@@ -8,7 +8,7 @@ import entity.NhanVien;
 
 public interface NhanVienDao extends Remote {
 
-	public List<NhanVien> DanhSachNhanVien(int page, String txtSearch, String gioiTinh , boolean trangThaiLamViec) throws RemoteException;
+	public List<NhanVien> DanhSachNhanVien(int page, String txtSearch, String gioiTinh , String trangThaiLamViec) throws RemoteException;
 
 	public NhanVien layThongTinNhanVienQuaSDT(String sdt) throws RemoteException;
 

@@ -31,6 +31,7 @@ import javax.swing.table.DefaultTableModel;
 
 import dao.KhachHangDao;
 import entity.KhachHang;
+import util.ip;
 
 public class KhachHang_Pn extends JPanel implements ActionListener, KeyListener {
 	
@@ -51,7 +52,7 @@ public class KhachHang_Pn extends JPanel implements ActionListener, KeyListener 
 	private JButton btnThemKhachHang;
 	private JButton btnSua;
 	private static KhachHangDao khachHangDao;
-	
+	private static String addressIP = util.ip.addressIP;
 
 	public KhachHang_Pn() throws RemoteException {
 		
@@ -170,9 +171,8 @@ public class KhachHang_Pn extends JPanel implements ActionListener, KeyListener 
 			System.setProperty("java.security.policy", "policy/policy.policy");
 			System.setSecurityManager(new SecurityManager());
 		}
-
 		try {
-			khachHangDao =  (KhachHangDao) Naming.lookup("rmi://192.168.1.7:9999/khachHangDao");
+			khachHangDao =  (KhachHangDao) Naming.lookup(addressIP +"/khachHangDao");
 		khachHangDao.danhSachKhachHang(0,"","")
 		.forEach(item->{
 			System.out.println(item);
@@ -415,9 +415,8 @@ public class KhachHang_Pn extends JPanel implements ActionListener, KeyListener 
 			System.setProperty("java.security.policy", "policy/policy.policy");
 			System.setSecurityManager(new SecurityManager());
 		}
-
 		try {
-		khachHangDao =  (KhachHangDao) Naming.lookup("rmi://192.168.1.7:9999/khachHangDao");
+		khachHangDao =  (KhachHangDao) Naming.lookup(addressIP+"/khachHangDao");
 		khachHangDao.danhSachKhachHang(0,"","")
 		.forEach(item->{
 			System.out.println(item);

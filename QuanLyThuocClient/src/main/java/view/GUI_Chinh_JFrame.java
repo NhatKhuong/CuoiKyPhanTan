@@ -42,19 +42,17 @@ public class GUI_Chinh_JFrame extends JFrame implements MouseListener, ActionLis
 	private view.ThongKe_Pn thongKe_Pn;
 	private JButton btnDangXuat;
 	public static NhanVien nhanVien;
-	
+
 	/**
 	 * Create the frame.
 	 */
-	
 
-	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
-			 GUI_Chinh_JFrame chinh_JFrame;
+			GUI_Chinh_JFrame chinh_JFrame;
+
 			class DangNhapInterface implements DangNhapResponse {
 
-				@Override
 				public void getNhanVien(NhanVien nhanVien1) {
 					if (nhanVien1 != null) {
 						nhanVien = nhanVien1;
@@ -62,13 +60,12 @@ public class GUI_Chinh_JFrame extends JFrame implements MouseListener, ActionLis
 						chinh_JFrame.setVisible(true);
 					}
 				}
-
 			}
 			public void run() {
 				try {
-						UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
-					  new DangNhap(new DangNhapInterface()).setVisible(true);
-				
+					UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
+					new DangNhap(new DangNhapInterface()).setVisible(true);
+
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -76,7 +73,6 @@ public class GUI_Chinh_JFrame extends JFrame implements MouseListener, ActionLis
 		});
 //		new GUI_Chinh_JFrame().setVisible(true);
 	}
-
 
 	public GUI_Chinh_JFrame() {
 //		try {
@@ -94,7 +90,7 @@ public class GUI_Chinh_JFrame extends JFrame implements MouseListener, ActionLis
 //			// TODO Auto-generated catch block
 //			e.printStackTrace();
 //		}
-		
+
 //		try {
 //			UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
 //		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException
@@ -129,8 +125,8 @@ public class GUI_Chinh_JFrame extends JFrame implements MouseListener, ActionLis
 		lblTitle.setForeground(Color.WHITE);
 		lblTitle.setBounds(485, 14, 301, 28);
 		pnTitleName.add(lblTitle);
-		
-		JLabel lblUser= new JLabel("Nhân viên: "+nhanVien.getTenNhanVien().toUpperCase());
+
+		JLabel lblUser = new JLabel("Nhân viên: " + nhanVien.getTenNhanVien().toUpperCase());
 		lblUser.setForeground(new Color(46, 139, 87));
 		lblUser.setHorizontalAlignment(SwingConstants.CENTER);
 		lblUser.setVerticalAlignment(SwingConstants.CENTER);
@@ -139,16 +135,11 @@ public class GUI_Chinh_JFrame extends JFrame implements MouseListener, ActionLis
 		lblUser.setForeground(Color.WHITE);
 		lblUser.setBounds(870, 14, 301, 28);
 		pnTitleName.add(lblUser);
-		
-	
-		
+
 		btnDangXuat = new JButton("Đăng Xuất");
 		btnDangXuat.setBounds(1150, 14, 100, 28);
 		btnDangXuat.addActionListener(this);
 		pnTitleName.add(btnDangXuat);
-		
-		
-		
 
 //		JLabel label_1 = new JLabel("");
 //		label_1.setIcon(new ImageIcon(GUI_Chinh_JFrame.class.getResource("/img/logoMain.jpg")));
@@ -172,7 +163,7 @@ public class GUI_Chinh_JFrame extends JFrame implements MouseListener, ActionLis
 
 //		cuaHang_Pn = new CuaHang_Pn();
 //		thuoc_Pn = new Thuoc_Pn();
-//		nhanVien_Pn = new NhanVien_Pn();
+		nhanVien_Pn = new NhanVien_Pn();
 		try {
 			khachHang_Pn = new KhachHang_Pn();
 		} catch (RemoteException e) {
@@ -195,28 +186,27 @@ public class GUI_Chinh_JFrame extends JFrame implements MouseListener, ActionLis
 				hoaDon_Pn, "Quản lý hóa đơn");
 		tabbedPane.addTab("Thống kê  ", new ImageIcon(GUI_Chinh_JFrame.class.getResource("/img/statistics.png")),
 				thongKe_Pn, "Thống kê");
-		
 	}
-	@Override
+
 	public void actionPerformed(ActionEvent e) {
-		Object object =  e.getSource();
-		if(object.equals(btnDangXuat)) {
-			int check = JOptionPane.showConfirmDialog(this, "Bạn có chắc chắn đăng xuất","Đăng xuất",JOptionPane.YES_NO_OPTION);
-			if(check == JOptionPane.YES_OPTION) {
+		Object object = e.getSource();
+		if (object.equals(btnDangXuat)) {
+			int check = JOptionPane.showConfirmDialog(this, "Bạn có chắc chắn đăng xuất", "Đăng xuất",
+					JOptionPane.YES_NO_OPTION);
+			if (check == JOptionPane.YES_OPTION) {
 				nhanVien = null;
 				this.setVisible(false);
 				this.dispose();
 				main(null);
 				return;
-				
-			}else {
+
+			} else {
 				return;
 			}
-			
+
 		}
 	}
 
-	@Override
 	public void mouseClicked(MouseEvent e) {
 
 		switch (tabbedPane.getSelectedIndex()) {
@@ -241,36 +231,28 @@ public class GUI_Chinh_JFrame extends JFrame implements MouseListener, ActionLis
 			break;
 		}
 		case 5: {
-
 			break;
 		}
 		}
 	}
 
-	@Override
 	public void mouseEntered(MouseEvent e) {
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
 	public void mouseExited(MouseEvent e) {
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
 	public void mousePressed(MouseEvent e) {
 		// TODO Auto-generated method stub
 
 	}
 
-	@Override
 	public void mouseReleased(MouseEvent e) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated mls
+		
 
-	}
-
-
-	
 }

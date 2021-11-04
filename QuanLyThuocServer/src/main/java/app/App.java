@@ -1,5 +1,6 @@
 package app;
 
+import java.net.InetAddress;
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;
 
@@ -32,13 +33,14 @@ public class App{
 //			.forEach(item->{
 //				System.out.println(item);
 //			});
-
-			LocateRegistry.createRegistry(9999);
+			InetAddress inetAddress = InetAddress.getLocalHost();
+			String ip = inetAddress.getHostAddress();
+			LocateRegistry.createRegistry(9997);
 			Context context = new InitialContext();
-//			Naming.bind("rmi://192.168.1.7:9999/quanLyDao", quanLyDao);
-			Naming.bind("rmi://192.168.1.7:9999/khachHangDao", khachHangDao);
-			Naming.bind("rmi://192.168.1.7:9999/nhanVienDao", nhanVienDao);
-			System.out.println("Server bound in RMIRegistry");
+//			Naming.bind("rmi://192.168.1.2:9998/quanLyDao", quanLyDao);
+			Naming.bind("rmi://"+ip+":9997/khachHangDao", khachHangDao);
+			Naming.bind("rmi://"+ip+":9997/nhanVienDao", nhanVienDao);
+			System.out.println("Server bound in RMIRegistry at "+ip);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
